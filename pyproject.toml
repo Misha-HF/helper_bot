@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "helper-bot"
+version = "0.1.0"
+description = ""
+authors = ["Misha-HF <144258555+Misha-HF@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+prompt-toolkit = "^3.0.43"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
